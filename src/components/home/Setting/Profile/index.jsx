@@ -117,7 +117,7 @@ const EditProfile = () => {
 
             <div className='flex flex-col items-center my-4'>
                 <div className='mt-4'>
-                    <img onClick={() => updateImage.current.click()} className={`w-[200px] ${profileImage === '' ? '' : 'border-[1px] border-[rgba(0,0,0,.2)] rounded-[50%]'}`} src={updateImage.current?.files[0] ? image : profileImage === '' ? Man : `http://15.206.179.59:4000//digsync/api/v0.1/${profileImage}`} alt="Profile Image" />
+                    <img onClick={() => updateImage.current.click()} className={`w-[200px] ${profileImage === '' ? '' : 'border-[1px] border-[rgba(0,0,0,.2)] rounded-[50%]'}`} src={updateImage.current?.files[0] ? image : profileImage === '' ? Man : `http://15.206.179.59:4000/digsync/api/v0.1/${profileImage}`} alt="Profile Image" />
                     <input type="file" hidden ref={updateImage} onChange={onImageChange} />
 
                 </div>
