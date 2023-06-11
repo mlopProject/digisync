@@ -193,7 +193,7 @@ const SelectTemplate = () => {
                             <div className='flex flex-wrap p-2'>
                                 {template.map((item, index) => {
                                     return <div key={item._id} className='rounded-lg border-[1px] border-b-slate-300 mr-[20px] my-4'>
-                                        <img src={`http://localhost:4000/digsync/api/v0.1/uploads/${item.imageUrl}`} className='overflow-hidden object-cover h-[500px] w-[300px] rounded-t-lg ' alt={item.name} />
+                                        <img src={`http://15.206.179.59:4000//digsync/api/v0.1/uploads/${item.imageUrl}`} className='overflow-hidden object-cover h-[500px] w-[300px] rounded-t-lg ' alt={item.name} />
 
                                         <div className='w-full border-[1px] border-b-slate-300'></div>
                                         <div className='flex justify-between items-center my-4'>
