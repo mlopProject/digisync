@@ -1,6 +1,6 @@
 import axios from 'axios'
 
-const baseURL = "http://localhost:4000/digsync/api/v0.1";
+const baseURL = "http://15.207.14.86:4000/digsync/api/v0.1";
 
 var loginToken = localStorage.getItem('token');
 
